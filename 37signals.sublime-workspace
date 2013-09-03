@@ -11,22 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "main.css",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -52,10 +36,11 @@
 	},
 	"file_history":
 	[
-		"/Users/megcusack/Documents/Projects/WEB/37Signals/main.css",
 		"/Users/megcusack/Documents/Projects/WEB/37Signals/index.html",
-		"/Users/megcusack/Documents/Projects/WEB/GoogleClone/main.css",
+		"/Users/megcusack/Documents/Projects/WEB/37Signals/application.js",
+		"/Users/megcusack/Documents/Projects/WEB/37Signals/main.css",
 		"/Users/megcusack/Documents/Projects/WEB/GoogleClone/index.html",
+		"/Users/megcusack/Documents/Projects/WEB/GoogleClone/main.css",
 		"/Users/megcusack/Desktop/wordpress/wp-config.php",
 		"/Users/megcusack/Documents/Projects/WEB/wistia/indexWistia.html",
 		"/Users/megcusack/Documents/Projects/WEB/CusackRGB/grid.css",
@@ -86,6 +71,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<br>",
+			"treehou"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -103,61 +90,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "main.css",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -168,7 +102,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{

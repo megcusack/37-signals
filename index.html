@@ -5,6 +5,8 @@
 <meta charset="utf-8">
 <title>37 Signals</title>
 <link rel="stylesheet" type="text/css" href="main.css">	
+<script src="jquery-2.0.3.js"></script>
+<script src="application.js"></script>
 </head>
 
 
@@ -28,15 +30,35 @@
 		<img src="images/logo37.png" alt="37 Signals logo">
 	</div>	
 
-	<div class="header">
+	<div class="header" id="mainheader">
 		<h1>Making collaboration productive and enjoyable for people every day.</h1>
 		<h3>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h3>
 	</div>
 
 
+	<div class="alternateHeaders">
+		<div class="header" id="basecampHeader">
+			<h1><span>Basecamp</span> is the project management tool you wish you had on your last project.</h1>
+			<h3>Are you still managing projects with email? Are you still using Excel for your to do lists? It's time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</h3>
+		</div>
+
+		<div class="header" id="highriseHeader">
+			<h1><span>Highrise</span> remembers the important things <br>about people you'd normally forget.</h1>
+			<h3>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</h3>
+		</div>
+
+		<div class="header" id="campfireHeader">
+			<h1>From near or far, <span>Campfire</span> helps teams work together over the web in real time.</h1>
+			<h3>Share ideas, discussions, concepts, images, code samples, videos, mockups and documents in a real-time private chat room.We couldn't run our own business without Campfire.</h3>
+		</div>
+</div>
+
+
+
 	<div class="campimages" >
-		<div class="campimagescontent">
+		<div class="campimagescontent" id="basecampBox">
 			<img src="images/basecamp.png" alt="Basecamp: Manage Projects">
+			<img src="images/arrow-left.png" class="redarrowleft">
 			<h2>Basecamp<h2>
 			<br>
 			<h3>Manage Projects</h3>
@@ -45,8 +67,9 @@
 			<br><br>
 		</div>
 
-		<div class="campimagescontent">
+		<div class="campimagescontent" id="highriseBox">
 			<img src="images/highrise.png" alt="Highrise: Manage Contacts">
+			<img src="images/arrow-left.png" class="redarrowleft">
 			<h2>Highrise<h2>
 			<br>
 			<h3>Manage Contacts</h3>
@@ -55,8 +78,9 @@
 			<br><br>
 		</div>
 
-		<div class="campimagescontent">
+		<div class="campimagescontent" id="campfireBox">
 			<img src="images/campfire.png" alt="Campfire: Work in Real-Time">
+			<img src="images/arrow-right.png" class="redarrowright">
 			<h2>Campfire<h2>
 			<br>
 			<h3>Manage Projects</h3>

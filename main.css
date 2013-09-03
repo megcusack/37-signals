@@ -151,6 +151,10 @@ Two long line headings before photos
 	
 }
 
+.header {
+	height: 160px;
+}
+
 /*******************
 Basecamp/highrise/campfire divs
 ********************/
@@ -164,6 +168,16 @@ but they still go in vertical alignment??*/
 
 img {
 	margin: 20px auto 10px ; 
+}
+
+.alternateHeaders h1{
+	font-size: 50px;
+}
+
+.alternateHeaders span {
+	color: #336699;
+	text-decoration: underline;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
 }
 
 .campimagescontent {
@@ -181,6 +195,18 @@ img {
 	  background:         linear-gradient(#FDFDFD, #f0f0f0);
 	text-align: center;
 	font-family: 'Lucida Grande',sans-serif;
+	position: relative;
+
+}
+
+.campimagescontent:hover .redarrowright {
+	display: block;
+
+}
+
+.campimagescontent:hover .redarrowleft {
+	display: block;
+
 }
 
 .campimagescontent h2{
@@ -199,6 +225,24 @@ img {
 	word-spacing: .20em;
 	line-height: 18px;
 }
+
+.redarrowright {
+	display:none;
+	position: absolute;
+	top: -55px;
+	left: -5px;
+
+}
+
+.redarrowleft {
+	display:none;
+	position: absolute;
+	top: -55px;
+	left: 140px;
+
+}
+
+
 
 /*******************
 STARS AT BOTTOM
